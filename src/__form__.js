@@ -4,5 +4,7 @@
  */
 
 /**
- * way-2: use individual state
+ * way-2: controlled element:- use individual field state for each input field
+ * way-3: controlled element:- one objet in a sate holding all the input fields value
+ * way-4: uncontrolled element: useRef to create a reference to the element and access value by using like: nameRef.current.value
  */
