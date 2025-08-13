@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ReuseableForm = ({ formTitle, submitBtnText = "Submit", handleSubmit, children }) => {
+const ReuseableForm = ({ submitBtnText = "Submit", handleSubmit, children }) => {
 
     const handleLocalSubmit = e => {
 
